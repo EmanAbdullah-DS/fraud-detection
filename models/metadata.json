@@ -1,0 +1,91 @@
+{
+  "model": "Gradient Boosting (tuned 4)",
+  "threshold": 0.052144,
+  "review_cost": 5.0,
+  "val_start": "2024-08-01",
+  "test_start": "2024-09-01",
+  "categories": {
+    "channel": [
+      "app",
+      "web"
+    ],
+    "merchant_category": [
+      "electronics",
+      "fashion",
+      "gaming",
+      "grocery",
+      "travel"
+    ],
+    "country": [
+      "DE",
+      "ES",
+      "FR",
+      "GB",
+      "IT",
+      "NL",
+      "PL",
+      "RO",
+      "TR",
+      "US"
+    ]
+  },
+  "reference_row": {
+    "amount": 90.06,
+    "avg_amount_user": 90.3,
+    "country": "US",
+    "bin_country": "US",
+    "account_age_days": 986.0,
+    "total_transactions_user": 51.0,
+    "channel": "web",
+    "merchant_category": "grocery",
+    "promo_used": 0.0,
+    "avs_match": 1.0,
+    "cvv_result": 1.0,
+    "three_ds_flag": 1.0,
+    "shipping_distance_km": 268.93,
+    "transaction_time": "2024-04-16 18:01:11+00:00"
+  },
+  "ranges": {
+    "account_age_days": [
+      1.0,
+      1890.0,
+      975.0
+    ],
+    "total_transactions_user": [
+      40.0,
+      60.0,
+      51.0
+    ],
+    "avg_amount_user": [
+      3.52,
+      4565.29,
+      90.13
+    ],
+    "amount": [
+      1.0,
+      16994.74,
+      89.99
+    ],
+    "shipping_distance_km": [
+      0.0,
+      3748.56,
+      273.02
+    ]
+  },
+  "feature_importance": {
+    "amount": 0.66074,
+    "shipping_distance_km": 0.47392,
+    "avg_amount_user": 0.27044,
+    "country": 0.15408,
+    "bin_country": 0.14445,
+    "account_age_days": 0.12381,
+    "avs_match": 0.03505,
+    "channel": 0.01489,
+    "promo_used": 0.00664,
+    "three_ds_flag": 0.00619,
+    "cvv_result": 0.00209,
+    "total_transactions_user": 0.00173,
+    "transaction_time": -5e-05,
+    "merchant_category": -0.00022
+  }
+}

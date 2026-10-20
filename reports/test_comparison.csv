@@ -1,0 +1,5 @@
+model,pr_auc,roc_auc,precision,recall,f1,cost
+Logistic Regression,0.6435,0.9493,0.1697,0.8674,0.2839,65331.6
+Random Forest,0.8513,0.9719,0.6693,0.8265,0.7397,54665.44
+Gradient Boosting,0.8537,0.9765,0.6078,0.8265,0.7005,56876.24
+Gradient Boosting (tuned 4),0.8571,0.9772,0.551,0.8386,0.6651,52596.82
